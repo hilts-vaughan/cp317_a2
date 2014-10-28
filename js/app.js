@@ -1,10 +1,10 @@
 
 
   /*
-    *
+    * Allows the user to go back to a page given the transition requested
   */
   function loadBack(where) {
-      $.mobile.changePage(where + ".html", { transition: "slideup", changeHash: false });
+      $.mobile.changePage(where + ".html", { transition: "pop", changeHash: false });
    }
 
   /*
