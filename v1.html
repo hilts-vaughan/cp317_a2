@@ -10,13 +10,13 @@
 
 <div data-role="page">
   <div data-role="header">
-	<h1><img src="assets/vaughan.png" width="80">Vaughan Hilts</h1>
+	<h1><img src="assets/vaughan.png" width="80"><div style="">Vaughan Hilts</div></h1>
 	<a onClick='loadBack()' class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-carat-l">Back</a>
 	<a onClick='loadHome()' class="ui-btn-right ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-home">Home</a>
   </div>
 
-  
-  
+
+
   <div data-role="main" class="ui-content">
 
 	Hi, I'm Vaughan Hilts!
@@ -28,7 +28,7 @@
 
 
 
-	<div data-role="footer" data-position="fixed">   
+	<div data-role="footer" data-position="fixed">
 	<br>
       <div data-role="navbar" class="nav-customIcon">
     <ul>
@@ -38,22 +38,22 @@
     </ul>
  </div>
 </div>
-   
-   
-   
-   <script>  
+
+
+
+   <script>
    function loadHome() {   $.mobile.changePage( "index.html", { transition: "slideup", changeHash: false });}
    function loadBack() {   $.mobile.changePage( "main.html", { transition: "slideup", changeHash: false });}
-   
+
    function loadV1() {   $.mobile.changePage( "v1.html", { transition: "slideup", changeHash: false });}
    function loadV2() {   $.mobile.changePage( "v2.html", { transition: "slideup", changeHash: false });}
    function loadV3() {   $.mobile.changePage( "v3.html", { transition: "slideup", changeHash: false });}
-   
-   
+
+
    </script>
   </div>
- 
-</div> 
+
+</div>
 
 </body>
 </html>

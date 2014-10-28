@@ -1,7 +1,12 @@
 /*! jQuery Mobile 1.4.4 | Git HEADhash: b4150fb <> 2014-09-12T16:43:26Z | (c) 2010, 2014 jQuery Foundation, Inc. | jquery.org/license */
 
+
 img {
   max-width: 100%;
+}
+
+.border {
+  border: 3px solid black;
 }
 
 

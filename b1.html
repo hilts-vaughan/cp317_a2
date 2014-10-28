@@ -10,13 +10,13 @@
 
 <div data-role="page">
   <div data-role="header">
-	<h1><img src="assets/brandon.png" width="80">Brandon Smith</h1>
+	<h1><img src="assets/brandon.png" width="80"><div style="">Brandon Smith</div></h1>
 	<a onClick='loadBack()' class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-carat-l">Back</a>
 	<a onClick='loadHome()' class="ui-btn-right ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-home">Home</a>
   </div>
 
-  
-  
+
+
   <div data-role="main" class="ui-content">
 <p> I'm Brandon Smith
 <p> I go to Laurier and come from from Owen Sound.
@@ -26,7 +26,7 @@ I am 21 years old and a computer science major.
 
 
 
-	<div data-role="footer" data-position="fixed">   
+	<div data-role="footer" data-position="fixed">
 	<br>
       <div data-role="navbar" class="nav-customIcon">
     <ul>
@@ -36,22 +36,22 @@ I am 21 years old and a computer science major.
     </ul>
  </div>
 </div>
-   
-   
-   
-   <script>  
+
+
+
+   <script>
    function loadHome() {   $.mobile.changePage( "index.html", { transition: "slideup", changeHash: false });}
    function loadBack() {   $.mobile.changePage( "main.html", { transition: "slideup", changeHash: false });}
-   
+
    function loadB1() {   $.mobile.changePage( "b1.html", { transition: "slideup", changeHash: false });}
    function loadB2() {   $.mobile.changePage( "b2.html", { transition: "slideup", changeHash: false });}
    function loadB3() {   $.mobile.changePage( "b3.html", { transition: "slideup", changeHash: false });}
-   
-   
+
+
    </script>
   </div>
- 
-</div> 
+
+</div>
 
 </body>
 </html>
