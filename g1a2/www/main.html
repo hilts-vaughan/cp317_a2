@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="js/jquery.mobile-1.4.4.min.css">
+      <script src="js/jquery-1.11.1.min.js"></script>
+      <script src="js/jquery.mobile-1.4.4.min.js"></script>
+   </head>
+   <body>
+      <div data-role="page">
+         <div data-role="header">
+            <h1>Group Members</h1>
+            <a onClick='loadBack("index")' class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-carat-l">Back</a>
+            <a onClick='loadHome()' class="ui-btn-right ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-home">Home</a>
+         </div>
+         <div data-role="main" class="ui-content">
+            <ul data-role="listview" data-filter="true" data-filter-placeholder="Search people..." data-inset="true">
+               <li><a onClick='loadProfilePageFor("colin", "about", "slide")'>  <img src="assets/colin.png">Colin Gidzinski</a></li>
+               <li><a onClick='loadProfilePageFor("vaughan", "about", "slide")'>  <img src="assets/vaughan.png">Vaughan Hilts</a></li>
+               <li><a onClick='loadProfilePageFor("brandon", "about", "slide")'>  <img src="assets/brandon.gif">Brandon Smith</a></li>
+            </ul>
+         </div>
+      </div>
+   </body>
+</html>

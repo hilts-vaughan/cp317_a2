@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="js/jquery.mobile-1.4.4.min.css">
+      <script src="js/jquery-1.11.1.min.js"></script>
+      <script src="js/jquery.mobile-1.4.4.min.js"></script>
+   </head>
+   <body>
+      <div data-role="page">
+         <div data-role="header" >
+            <h1>
+               <img src="assets/colin.png" width="80">
+               <div style="">Colin Gidzinski</div>
+            </h1>
+            <a onClick='loadBack("main")' class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-carat-l">Back</a>
+            <a onClick='loadHome()' class="ui-btn-right ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-home">Home</a>
+         </div>
+         <div data-role="main" class="ui-content">
+            <p> I like to program and create electronic devices.
+               <br>
+               <img src="http://t3.gstatic.com/images?q=tbn:ANd9GcRcPpamVQ2-8rFaQja7_wbVwKcvB9VHUFeSDvacRsq75E7rHptb">
+            <p> I also like to play airsoft, warhammer40K,Magic and enjoy videogames and anime.
+               <br>
+               <img src="http://40000.weebly.com/uploads/5/2/9/4/5294043/4804363_orig.jpg?332">
+               <br>
+            <p> EVE Online
+               <br>
+               <img src="http://cdn1.eveonline.com/www/newssystem/media/64025/1/Retribution_Thumbnail.jpg">
+         </div>
+         <div data-role="footer" data-position="fixed">
+            <br>
+            <div data-role="navbar" class="nav-customIcon">
+               <ul>
+                  <li><a onClick='loadProfilePageFor("colin", "about")' id="about" data-icon="custom" >About</a></li>
+                  <li><a onClick='loadProfilePageFor("colin", "work")' id="work" data-icon="custom"  >Work</a></li>
+                  <li><a onClick='loadProfilePageFor("colin", "hobby")' id="hobby" data-icon="custom" class="ui-btn-active ui-state-persist" >Hobby</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      </div>
+   </body>
+</html>

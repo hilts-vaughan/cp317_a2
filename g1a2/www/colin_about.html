@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="js/jquery.mobile-1.4.4.min.css">
+      <script src="js/jquery-1.11.1.min.js"></script>
+      <script src="js/jquery.mobile-1.4.4.min.js"></script>
+   </head>
+   <body>
+      <div data-role="page">
+         <div data-role="header">
+            <h1>
+               <img src="assets/colin.png" width="80">
+               <div style="">Colin Gidzinski</div>
+            </h1>
+            <a onClick='loadBack("main")' class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-carat-l">Back</a>
+            <a onClick='loadHome()' class="ui-btn-right ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-home">Home</a>
+         </div>
+         <div data-role="main" class="ui-content">
+            <p>I'm Colin Gidzinski.
+            <p>I go to Laurier and originate from Guelph.
+               My background is polish and I speak multiple different languages.
+               <br>
+               <img src="http://www.crwflags.com/fotw/images/p/pl-1920.gif">
+               <br>
+            <p> Soon, I will be 21.
+               <br>
+               <img height="400" src="https://scontent-a-lga.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/64115_10152721509850290_1085461082_n.jpg?oh=f241ab955a4e397dcf510eeb027e0e78&oe=54EF5076">
+         </div>
+         <div data-role="footer" data-position="fixed">
+            <br>
+            <div data-role="navbar" class="nav-customIcon">
+               <ul>
+                  <li><a onClick='loadProfilePageFor("colin", "about")' id="about" data-icon="custom" class="ui-btn-active ui-state-persist">About</a></li>
+                  <li><a onClick='loadProfilePageFor("colin", "work")' id="work" data-icon="custom" >Work</a></li>
+                  <li><a onClick='loadProfilePageFor("colin", "hobby")' id="hobby" data-icon="custom" >Hobby</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      </div>
+   </body>
+</html>
