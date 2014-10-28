@@ -1,6 +1,12 @@
 /*! jQuery Mobile 1.4.4 | Git HEADhash: b4150fb <> 2014-09-12T16:43:26Z | (c) 2010, 2014 jQuery Foundation, Inc. | jquery.org/license */
 
-	
+img {
+  max-width: 100%;
+}
+
+
+
+
 .nav-customIcon .ui-btn { padding-top: 40px !important; }
 .nav-customIcon .ui-btn:after { width: 30px!important; height: 30px!important; margin-left: -15px !important; box-shadow: none!important; -moz-box-shadow: none!important; -webkit-box-shadow: none!important; -webkit-border-radius: 0 !important; border-radius: 0 !important; }
 #about:after { background:  url("../assets/about.png") 50% 50% no-repeat; background-size: 14px 14px; }
