@@ -1,30 +1,25 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="js/jquery.mobile-1.4.4.min.css">
-<script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/jquery.mobile-1.4.4.min.js"></script>
-</head>
-<body>
-
-<div data-role="page">
-  <div data-role="header">
-    <h1>Hello Laurier</h1>
-  </div>
-
-  <div data-role="main" class="ui-content">
-   <br>   <center>CP317 Project Group Information</center>
-   <br>   <center>Click on the image</center>
-   <br>   <center> <img class="border" src="assets/logo.png" onClick='loadNext()'/></center>
-
-   <script>
-   function loadNext() {
-   $.mobile.changePage( "main.html", { transition: "slide", changeHash: false });}
-   </script>
-  </div>
-
-</div>
-
-</body>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="js/jquery.mobile-1.4.4.min.css">
+      <script src="js/jquery-1.11.1.min.js"></script>
+      <script src="js/jquery.mobile-1.4.4.min.js"></script>
+      <script src="js/app.js"> </script>
+   </head>
+   <body>
+      <div data-role="page">
+         <div data-role="header">
+            <h1>Hello Laurier</h1>
+         </div>
+         <div data-role="main" class="ui-content">
+            <br>
+            <center>CP317 Project Group Information</center>
+            <br>
+            <center>Click on the image</center>
+            <br>
+            <center> <img class="border" src="assets/logo.png" onClick='loadMembersPage()'/></center>
+         </div>
+      </div>
+   </body>
 </html>

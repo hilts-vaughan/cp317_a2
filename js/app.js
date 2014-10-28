@@ -32,6 +32,13 @@
 
 
   /*
+    * Loads and navigate to the group members page.
+  */
+  function loadMembersPage() {
+    $.mobile.changePage( "main.html", { transition: "slide", changeHash: false });
+  }
+
+  /*
     * Loads the home page of the applications and navigates there.
   */
   function loadHome() {
@@ -52,5 +59,5 @@
       tab = tab.toLowerCase();
       fragment = person + "_" + tab;
 
-      $.mobile.changePage(tab + ".html", { transition: "slideup", changeHash: false });
+      $.mobile.changePage(fragment + ".html", { transition: transition, changeHash: false });
    }
