@@ -41,13 +41,14 @@
 /Users/vaughanhilts/Repos/cp317_a2/g1a2/platforms/android/assets/www/index.html \
 /Users/vaughanhilts/Repos/cp317_a2/g1a2/platforms/android/assets/www/js \
 /Users/vaughanhilts/Repos/cp317_a2/g1a2/platforms/android/assets/www/main.html \
+/Users/vaughanhilts/Repos/cp317_a2/g1a2/platforms/android/assets/www/res \
 /Users/vaughanhilts/Repos/cp317_a2/g1a2/platforms/android/assets/www/vaughan_about.html \
 /Users/vaughanhilts/Repos/cp317_a2/g1a2/platforms/android/assets/www/vaughan_hobby.html \
 /Users/vaughanhilts/Repos/cp317_a2/g1a2/platforms/android/assets/www/vaughan_work.html \
 /Users/vaughanhilts/Repos/cp317_a2/g1a2/platforms/android/assets/www/assets/about.png \
 /Users/vaughanhilts/Repos/cp317_a2/g1a2/platforms/android/assets/www/assets/axonify.png \
 /Users/vaughanhilts/Repos/cp317_a2/g1a2/platforms/android/assets/www/assets/brandon.gif \
-/Users/vaughanhilts/Repos/cp317_a2/g1a2/platforms/android/assets/www/assets/Chapmans.jpg \
+/Users/vaughanhilts/Repos/cp317_a2/g1a2/platforms/android/assets/www/assets/chapmans.jpg \
 /Users/vaughanhilts/Repos/cp317_a2/g1a2/platforms/android/assets/www/assets/colin.png \
 /Users/vaughanhilts/Repos/cp317_a2/g1a2/platforms/android/assets/www/assets/graph.gif \
 /Users/vaughanhilts/Repos/cp317_a2/g1a2/platforms/android/assets/www/assets/hobby.png \
@@ -282,4 +283,9 @@
 /Users/vaughanhilts/Repos/cp317_a2/g1a2/platforms/android/assets/www/js/images/icons-svg/user-white.svg \
 /Users/vaughanhilts/Repos/cp317_a2/g1a2/platforms/android/assets/www/js/images/icons-svg/video-black.svg \
 /Users/vaughanhilts/Repos/cp317_a2/g1a2/platforms/android/assets/www/js/images/icons-svg/video-white.svg \
+/Users/vaughanhilts/Repos/cp317_a2/g1a2/platforms/android/assets/www/res/icons \
+/Users/vaughanhilts/Repos/cp317_a2/g1a2/platforms/android/assets/www/res/icons/icon-36-ldpi.png \
+/Users/vaughanhilts/Repos/cp317_a2/g1a2/platforms/android/assets/www/res/icons/icon-48-mdpi.png \
+/Users/vaughanhilts/Repos/cp317_a2/g1a2/platforms/android/assets/www/res/icons/icon-72-hdpi.png \
+/Users/vaughanhilts/Repos/cp317_a2/g1a2/platforms/android/assets/www/res/icons/icon-96-xhdpi.png \
 /Users/vaughanhilts/Repos/cp317_a2/g1a2/platforms/android/ant-build/AndroidManifest.xml \
