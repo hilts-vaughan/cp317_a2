@@ -1,5 +1,8 @@
 
 
+  /*
+    *
+  */
   function loadBack(where) {
       $.mobile.changePage(where + ".html", { transition: "slideup", changeHash: false });
    }
