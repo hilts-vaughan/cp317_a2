@@ -1,7 +1,17 @@
+/**
+* @author       Vaughan Hilts, Brandon Smith, Colin Gidzinski
+* @copyright    2014 CP317
+*/
+
+/*
+  * A utility JS function that will provide some utility for bringing users to the various pages in the app.
+*/
+
 
 
   /*
     * Allows the user to go back to a page given the transition requested
+    * @param {string} where:  The page in which you want to go and transist to.
   */
   function loadBack(where) {
       $.mobile.changePage(where + ".html", { transition: "pop", changeHash: false });
