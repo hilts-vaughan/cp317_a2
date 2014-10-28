@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="js/jquery.mobile-1.4.4.min.css">
+      <script src="js/jquery-1.11.1.min.js"></script>
+      <script src="js/jquery.mobile-1.4.4.min.js"></script>
+   </head>
+   <body>
+      <div data-role="page">
+         <div data-role="header">
+            <h1>
+               <img src="assets/vaughan.png" width="80">
+               <div style="">Vaughan Hilts</div>
+            </h1>
+            <a onClick='loadBack()' class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-carat-l">Back</a>
+            <a onClick='loadHome()' class="ui-btn-right ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-home">Home</a>
+         </div>
+         <div data-role="main" class="ui-content">
+            Hi, I'm Vaughan Hilts!
+            A Wilfrid Laurier student from Cambridge, Ontario; I love writing software. Primairly focused on game development, scalable network architecture and higher level API implementations, I love working with the newest technology stacks. You'll find me hacking around in C#, Python, Java and Assembler when working on emulation tools.
+         </div>
+         <div data-role="footer" data-position="fixed">
+            <br>
+            <div data-role="navbar" class="nav-customIcon">
+               <ul>
+                  <li><a onClick='loadV1()' id="about" data-icon="custom" class="ui-btn-active ui-state-persist">About</a></li>
+                  <li><a onClick='loadV2()' id="work" data-icon="custom" >Work</a></li>
+                  <li><a onClick='loadV3()' id="hobby" data-icon="custom" >Hobby</a></li>
+               </ul>
+            </div>
+         </div>
+         <script>
+            function loadHome() {   $.mobile.changePage( "index.html", { transition: "slideup", changeHash: false });}
+            function loadBack() {   $.mobile.changePage( "main.html", { transition: "slideup", changeHash: false });}
+
+            function loadV1() {   $.mobile.changePage( "v1.html", { transition: "slideup", changeHash: false });}
+            function loadV2() {   $.mobile.changePage( "v2.html", { transition: "slideup", changeHash: false });}
+            function loadV3() {   $.mobile.changePage( "v3.html", { transition: "slideup", changeHash: false });}
+
+
+         </script>
+      </div>
+      </div>
+   </body>
+</html>
