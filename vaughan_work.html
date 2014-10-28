@@ -24,22 +24,12 @@
             <br>
             <div data-role="navbar" class="nav-customIcon">
                <ul>
-                  <li><a onClick='loadV1()' id="about" data-icon="custom" >About</a></li>
-                  <li><a onClick='loadV2()' id="work" data-icon="custom" class="ui-btn-active ui-state-persist">Work</a></li>
-                  <li><a onClick='loadV3()' id="hobby" data-icon="custom" >Hobby</a></li>
+                  <li><a onClick='loadProfilePageFor("vaughan", "about")' id="about" data-icon="custom" >About</a></li>
+                  <li><a onClick='loadProfilePageFor("vaughan", "work")' id="work" data-icon="custom" class="ui-btn-active ui-state-persist">Work</a></li>
+                  <li><a onClick='loadProfilePageFor("vaughan", "hobby")' id="hobby" data-icon="custom" >Hobby</a></li>
                </ul>
             </div>
          </div>
-         <script>
-            function loadHome() {   $.mobile.changePage( "index.html", { transition: "slideup", changeHash: false });}
-            function loadBack() {   $.mobile.changePage( "main.html", { transition: "slideup", changeHash: false });}
-
-            function loadV1() {   $.mobile.changePage( "v1.html", { transition: "slideup", changeHash: false });}
-            function loadV2() {   $.mobile.changePage( "v2.html", { transition: "slideup", changeHash: false });}
-            function loadV3() {   $.mobile.changePage( "v3.html", { transition: "slideup", changeHash: false });}
-
-
-         </script>
       </div>
       </div>
    </body>
